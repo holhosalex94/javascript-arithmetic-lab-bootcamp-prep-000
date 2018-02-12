@@ -1,7 +1,7 @@
 function add(a, b){
  return a+b;
 }
-function substract(a, b){
+function subtract(a, b){
  return b-a;
 }
 function multiply(a, b){
@@ -15,4 +15,7 @@ function inc(n){
 }
 function dec(n){
  return n-1;
+}
+function makeInt(n){
+ return n.parseInt();
 }
